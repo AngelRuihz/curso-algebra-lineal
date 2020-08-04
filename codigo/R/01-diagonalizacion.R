@@ -2,7 +2,8 @@
 
 A = rbind(c(2,-2,1), c(2,-8,-2), c(1,2,2))
 isSymmetric(A)
-eigen(A) -> eig 
+eigen(A) -> eig
+
 
 eig$values
 l1 = eig$values[1]
